@@ -1,0 +1,89 @@
+{
+  "villes": [
+    {
+      "id": 1,
+      "nom": "Abidjan",
+      "communes": [
+        "Abobo",
+        "Adjamé",
+        "Attécoubé",
+        "Cocody",
+        "Koumassi",
+        "Marcory",
+        "Plateau",
+        "Port-Bouët",
+        "Treichville",
+        "Yopougon",
+        "Bingerville",
+        "Songon"
+      ],
+      "fraisLivraison": 2000
+    },
+    {
+      "id": 2,
+      "nom": "Bouaké",
+      "communes": [],
+      "fraisLivraison": 5000
+    },
+    {
+      "id": 3,
+      "nom": "Daloa",
+      "communes": [],
+      "fraisLivraison": 5000
+    },
+    {
+      "id": 4,
+      "nom": "Yamoussoukro",
+      "communes": [],
+      "fraisLivraison": 5000
+    },
+    {
+      "id": 5,
+      "nom": "San-Pédro",
+      "communes": [],
+      "fraisLivraison": 5000
+    },
+    {
+      "id": 6,
+      "nom": "Korhogo",
+      "communes": [],
+      "fraisLivraison": 5000
+    },
+    {
+      "id": 7,
+      "nom": "Man",
+      "communes": [],
+      "fraisLivraison": 5000
+    },
+    {
+      "id": 8,
+      "nom": "Gagnoa",
+      "communes": [],
+      "fraisLivraison": 5000
+    },
+    {
+      "id": 9,
+      "nom": "Divo",
+      "communes": [],
+      "fraisLivraison": 5000
+    },
+    {
+      "id": 10,
+      "nom": "Abengourou",
+      "communes": [],
+      "fraisLivraison": 5000
+    },
+    {
+      "id": 11,
+      "nom": "Grand-Bassam",
+      "communes": [],
+      "fraisLivraison": 5000
+    },
+    {
+      "id": 12,
+      "nom": "Agboville",
+      "communes": [],
+      "fraisLivraison": 5000
+    }
+  ]
+}

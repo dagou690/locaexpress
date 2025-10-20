@@ -1,0 +1,390 @@
+.conteneur-commandes {
+    width: 1300px;
+    border-radius: 19px;
+    margin-left: -42px;
+    margin-top: 100px;
+    padding: 40px 20px;
+    min-height: 100vh;
+    background: #F5F2F2;
+
+}
+
+.entete-commandes {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.entete-commandes h1 {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.sous-titre {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.conteneur-filtres {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bouton-filtre {
+    padding: 12px 24px;
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bouton-filtre:hover {
+    border-color: #2196F3;
+    color: #2196F3;
+}
+
+.bouton-filtre.actif {
+    background: #2196F3;
+    border-color: #2196F3;
+    color: white;
+}
+
+.liste-commandes {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.carte-commande {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.carte-commande:hover {
+    box-shadow: 0 6px 20px rgba(32, 144, 242, 0.223);
+}
+
+.entete-commande {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background: #f8f9fa;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.info-commande {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.numero-commande {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.date-commande {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.statut-commande {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.statut-attente {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.statut-validee {
+    background: #d1ecf1;
+    color: #0c5460;
+}
+
+.statut-encours {
+    background: #cce5ff;
+    color: #004085;
+}
+
+.statut-livree {
+    background: #d4edda;
+    color: #2196F3;
+}
+
+.statut-terminee {
+    background: #e2e3e5;
+    color: #383d41;
+}
+
+.statut-annulee {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.details-commande {
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ligne-detail {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.etiquette-detail {
+    font-weight: 600;
+    color: #666;
+    min-width: 200px;
+    font-size: 0.95rem;
+}
+
+.valeur-detail {
+    color: #1a1a1a;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.badge-duree {
+    padding: 4px 12px;
+    background: #2196F3;
+    color: white;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.articles-commande {
+    padding: 20px 25px;
+    background: #f8f9fa;
+    border-top: 1px solid #e0e0e0;
+}
+
+.articles-commande h4 {
+    font-size: 1rem;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.grille-articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.miniature-article {
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.miniature-article:hover {
+    transform: scale(1.03);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.miniature-article img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.info-mini-article {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.nom-mini-article {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    line-height: 1.2;
+}
+
+.quantite-mini-article {
+    font-size: 0.75rem;
+    color: #666;
+}
+
+.pied-commande {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.total-commande {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.total-commande > span:first-child {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.prix-total {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #2196F3;
+}
+
+.actions-commande {
+    display: flex;
+    gap: 10px;
+}
+
+.bouton-detail {
+    padding: 10px 20px;
+    background: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bouton-detail:hover {
+    background: rgb(23, 100, 163);
+}
+
+.bouton-annuler {
+    padding: 10px 20px;
+    background: transparent;
+    color: #dc3545;
+    border: 2px solid #dc3545;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bouton-annuler:hover {
+    background: #dc3545;
+    color: white;
+}
+
+.commandes-vide {
+    text-align: center;
+    padding: 80px 20px;
+    background: white;
+    border-radius: 12px;
+}
+
+.icone-vide {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.commandes-vide h2 {
+    font-size: 1.8rem;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.commandes-vide p {
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.commandes-vide button {
+    padding: 14px 30px;
+    background: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.commandes-vide button:hover {
+    background: #2196F3;
+}
+
+@media (max-width: 768px) {
+    .entete-commandes h1 {
+        font-size: 1.8rem;
+    }
+
+    .entete-commande {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .ligne-detail {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .etiquette-detail {
+        min-width: auto;
+    }
+
+    .pied-commande {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .actions-commande {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .bouton-detail,
+    .bouton-annuler {
+        width: 100%;
+    }
+
+    .grille-articles {
+        grid-template-columns: 1fr;
+    }
+
+    .conteneur-filtres {
+        overflow-x: auto;
+        justify-content: flex-start;
+        padding-bottom: 10px;
+    }
+
+    .bouton-filtre {
+        white-space: nowrap;
+    }
+}

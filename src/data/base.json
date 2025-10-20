@@ -1,0 +1,390 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "nom": "Verre à eau",
+      "categorie": "VERRE",
+      "prix": 100,
+      "note": 4,
+      "avis": 12,
+      "image": "/Verres/VerreEau-removebg-preview.png",
+      "variante": "Transparent",
+      "description": "Verre élégant pour vos événements. Verre à eau en verre sodocalcique transparent de qualité supérieure. Dimensions : hauteur 12 cm, diamètre supérieur 7 cm, diamètre base 6 cm. Capacité de 250 ml. Épaisseur du verre 2 mm pour une robustesse optimale. Poids unitaire de 180 grammes. Résiste aux températures jusqu'à 100°C.",
+      "stock": 150,
+      "variantes": [
+        {
+          "id": 1,
+          "variante": "Transparent",
+          "image": "/Verres/VerreEau-removebg-preview.png",
+          "stock": 150
+        },
+        {
+          "id": 2,
+          "variante": "Bleu argenté",
+          "image": "/Verres/VerreVinArgent-removebg-preview.png",
+          "stock": 80
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Verre à champagne",
+      "categorie": "VERRE",
+      "prix": 100,
+      "note": 4,
+      "avis": 55,
+      "stock": 120,
+      "variante": "Transparent",
+      "image": "/Verres/VerreChampagne-removebg-preview.png",
+      "description": "Flûte à champagne en cristallin transparent. Hauteur totale 22 cm, diamètre de la coupe 5 cm, diamètre du pied 7 cm. Contenance de 180 ml. Épaisseur du verre 1.8 mm avec pied épaissi à 3 mm pour stabilité. Poids de 145 grammes. Forme élancée préservant les bulles du champagne.",
+      "variantes": [
+        {
+          "id": 2,
+          "variante": "Transparent",
+          "image": "/Verres/VerreChampagne-removebg-preview.png",
+          "stock": 120
+        },
+        {
+          "id": 5,
+          "variante": "Bronze",
+          "image": "/Verres/VerreChampagneBronze-removebg-preview.png",
+          "stock": 80
+        },
+        {
+          "id": 8,
+          "variante": "Argenté",
+          "image": "/Verres/VerreVinArgent-removebg-preview.png",
+          "stock": 90
+        },
+        {
+          "id": 9,
+          "variante": "Or",
+          "image": "/Verres/VerreChampageOr-removebg-preview.png",
+          "stock": 60
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Verre à vin",
+      "categorie": "VERRE",
+      "prix": 100,
+      "note": 4,
+      "avis": 54,
+      "stock": 200,
+      "variante": "Transparent",
+      "image": "/Verres/VerreVin-removebg-preview.png",
+      "description": "Verre à vin rouge en verre cristal. Hauteur 20 cm, diamètre coupe 8.5 cm, diamètre pied 7.5 cm. Volume de 350 ml. Épaisseur uniforme de 2 mm, tige fine de 1.5 cm de diamètre. Poids de 210 grammes. Forme ballon permettant l'aération optimale du vin.",
+      "variantes": [
+        {
+          "id": 3,
+          "variante": "Transparent",
+          "image": "/Verres/VerreVin-removebg-preview.png",
+          "stock": 200
+        },
+        {
+          "id": 6,
+          "variante": "Orange",
+          "image": "/Verres/VerreVinOrange-removebg-preview.png",
+          "stock": 85
+        },
+        {
+          "id": 7,
+          "variante": "Argenté",
+          "image": "/Verres/VerreVinArgent-removebg-preview.png",
+          "stock": 95
+        },
+        {
+          "id": 10,
+          "variante": "Violet",
+          "image": "/Verres/VerreVinViolet-removebg-preview.png",
+          "stock": 70
+        },
+        {
+          "id": 11,
+          "variante": "Or",
+          "image": "/Verres/VerreVinOr-removebg-preview.png",
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Verre à whisky",
+      "categorie": "VERRE",
+      "prix": 200,
+      "note": 4,
+      "avis": 52,
+      "stock": 80,
+      "variante": "Standard",
+      "image": "/Verres/VerreWhisky-removebg-preview.png",
+      "description": "Tumbler à whisky en verre cristallin épais. Hauteur 9 cm, diamètre supérieur 8 cm, base carrée de 8x8 cm. Capacité de 300 ml. Fond extra-épais de 15 mm pour un poids stable de 350 grammes. Parois de 4 mm d'épaisseur. Design lourd et équilibré, compatible avec glaçons."
+    },
+    {
+      "id": 12,
+      "nom": "Chaise blanche en plastique",
+      "categorie": "CHAISE",
+      "prix": 100,
+      "note": 4,
+      "avis": 53,
+      "stock": 300,
+      "variante": "Blanc plastique",
+      "image": "/Chaises/ChaisePlastiqueBlanc-removebg-preview.png",
+      "description": "Chaise monobloc en polypropylène blanc haute densité. Dimensions : hauteur totale 82 cm, hauteur assise 45 cm, largeur 44 cm, profondeur 50 cm. Dossier incurvé de 37 cm de hauteur. Épaisseur du plastique 8 mm. Poids de 3.2 kg, charge maximale 120 kg. Empilable jusqu'à 10 unités. Traitement anti-UV pour usage extérieur."
+    },
+    {
+      "id": 13,
+      "nom": "Chaise dos rectangulaire",
+      "categorie": "CHAISE",
+      "prix": 100,
+      "note": 4,
+      "avis": 51,
+      "stock": 50,
+      "variante": "Or",
+      "image": "/Chaises/ChaiseDosRectangleOr-removebg-preview.png",
+      "description": "Chaise transparente en polycarbonate cristal avec dossier rectangulaire. Hauteur totale 85 cm, assise 45 cm, largeur 42 cm, profondeur 48 cm. Dossier rectangulaire de 40x38 cm avec épaisseur de 12 mm. Pieds renforcés de 3 cm de diamètre. Poids de 4.8 kg, supporte jusqu'à 130 kg. Matériau anti-rayures et anti-jaunissement.",
+      "variantes": [
+        {
+          "id": 13,
+          "variante": "Or",
+          "image": "/Chaises/ChaiseDosRectangleOr-removebg-preview.png",
+          "stock": 50
+        },
+        {
+          "id": 16,
+          "variante": "Transparent",
+          "image": "/Chaises/ChaiseVerreTransparentDosRectangle-removebg-preview.png",
+          "stock": 60
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "nom": "Chaise dos circulaire",
+      "categorie": "CHAISE",
+      "prix": 100,
+      "note": 4,
+      "avis": 54,
+      "stock": 60,
+      "variante": "Or",
+      "image": "/Chaises/ChaiseDosRondOr-removebg-preview.png",
+      "description": "Chaise en polycarbonate transparent avec dossier arrondi. Dimensions : hauteur 84 cm, assise à 45 cm, largeur 43 cm, profondeur 49 cm. Dossier circulaire de 35 cm de diamètre, épaisseur 10 mm. Structure monobloc renforcée. Poids de 4.5 kg, capacité de charge 130 kg. Finition brillante résistante aux chocs et aux UV.",
+      "variantes": [
+        {
+          "id": 14,
+          "variante": "Or",
+          "image": "/Chaises/ChaiseDosRondOr-removebg-preview.png",
+          "stock": 60
+        },
+        {
+          "id": 15,
+          "variante": "Transparent",
+          "image": "/Chaises/ChaiseVerreDorRondTransparent-removebg-preview.png",
+          "stock": 60
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "nom": "Chaise de marié",
+      "categorie": "CHAISE",
+      "prix": 200,
+      "note": 4,
+      "avis": 52,
+      "stock": 6,
+      "variante": "Dos rond",
+      "image": "/Chaises/ChaiseMairieDosRond-removebg-preview.png",
+      "description": "Chaise de cérémonie avec structure en acier tubulaire chromé et revêtement en similicuir blanc capitonné. Hauteur totale 110 cm, assise 48 cm, largeur 52 cm, profondeur 55 cm. Dossier haut de 62 cm avec capitonnage en losanges. Tubes en acier de 25 mm de diamètre, épaisseur 2 mm. Poids de 8.5 kg, supporte 150 kg. Rembourrage en mousse haute densité de 5 cm.",
+      "variantes": [
+        {
+          "id": 17,
+          "variante": "Dos rond",
+          "image": "/Chaises/ChaiseMairieDosRond-removebg-preview.png",
+          "stock": 6
+        },
+        {
+          "id": 18,
+          "variante": "Dos rectangulaire",
+          "image": "/Chaises/ChaiseMarieDosRectangle-removebg-preview.png",
+          "stock": 6
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "nom": "Assiette à gateau",
+      "categorie": "ASSIETTE",
+      "prix": 50,
+      "note": 5,
+      "avis": 89,
+      "stock": 500,
+      "variante": "Standard",
+      "image": "/Assiettes/AssietteGateau-removebg-preview.png",
+      "description": "Assiette plate en porcelaine blanche standard. Diamètre 26 cm, épaisseur 3 mm, hauteur du rebord 2 cm. Surface lisse et brillante. Poids de 420 grammes. Matériau en porcelaine feldspathique cuite à 1320°C. Compatible micro-ondes et lave-vaisselle industriel. Rebord légèrement relevé de 15 mm facilitant la prise en main."
+    },
+    {
+      "id": 20,
+      "nom": "Assiette en or",
+      "categorie": "ASSIETTE",
+      "prix": 150,
+      "note": 5,
+      "avis": 120,
+      "stock": 100,
+      "variante": "Dorée",
+      "image": "/Assiettes/AssietteOr.png",
+      "description": "Assiette de présentation en verre trempé avec bordure dorée à l'or fin 24 carats. Diamètre 33 cm, épaisseur du verre 4 mm, largeur de la bordure dorée 2 cm. Poids de 680 grammes. Centre en verre transparent ultra-clair, finition brillante. Bordure en relief de 3 mm. Résiste à 80°C, lavage à la main recommandé pour préserver la dorure."
+    },
+    {
+      "id": 21,
+      "nom": "Assiette creuse",
+      "categorie": "ASSIETTE",
+      "prix": 60,
+      "note": 5,
+      "avis": 75,
+      "stock": 350,
+      "variante": "Carrée",
+      "image": "/Assiettes/AssietteCreuseCarre-removebg-preview.png",
+      "description": "Assiette creuse en porcelaine blanche. Diamètre supérieur 22 cm, base 15 cm, profondeur 4.5 cm. Épaisseur des parois 3.5 mm. Capacité de 450 ml. Poids de 480 grammes. Rebord plat de 3 cm de largeur. Porcelaine vitrifiée haute température à 1280°C. Compatible four traditionnel jusqu'à 220°C et micro-ondes.",
+      "variantes": [
+        {
+          "id": 21,
+          "variante": "Carrée",
+          "image": "/Assiettes/AssietteCreuseCarre-removebg-preview.png",
+          "stock": 350
+        },
+        {
+          "id": 22,
+          "variante": "Ronde",
+          "image": "/Assiettes/AssietteCreuseBlanche-removebg-preview.png",
+          "stock": 400
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "nom": "Assiette plate",
+      "categorie": "ASSIETTE",
+      "prix": 55,
+      "note": 5,
+      "avis": 95,
+      "stock": 450,
+      "variante": "Standard",
+      "image": "/Assiettes/AssiettePlate-removebg-preview.png",
+      "description": "Assiette plate en céramique émaillée blanche. Diamètre 27 cm, épaisseur centrale 4 mm, rebord 2.5 cm de largeur. Hauteur totale 2.5 cm. Poids de 510 grammes. Surface parfaitement lisse avec émaillage brillant. Céramique cuite à 1200°C. Base antidérapante avec anneau de stabilité de 18 cm. Empilable avec séparation de 8 mm."
+    },
+    {
+      "id": 24,
+      "nom": "Table ronde",
+      "categorie": "TABLE",
+      "prix": 500,
+      "note": 5,
+      "avis": 89,
+      "stock": 25,
+      "variante": "Pliable plastique",
+      "image": "/Tables/TableCirculairePliable-removebg-preview.png",
+      "description": "Table ronde pliante avec plateau en HDPE blanc. Diamètre 120 cm, hauteur 74 cm, épaisseur du plateau 3.5 cm. Structure en acier tubulaire de 32 mm de diamètre, épaisseur 1.5 mm. Poids de 15 kg, capacité de charge 150 kg. Pieds pliants avec système de verrouillage sécurisé. Dimensions pliées : 120x60x10 cm. Patins antidérapants en caoutchouc de 4 cm.",
+      "variantes": [
+        {
+          "id": 24,
+          "variante": "Pliable plastique",
+          "image": "/Tables/TableCirculairePliable-removebg-preview.png",
+          "stock": 25
+        },
+        {
+          "id": 25,
+          "variante": "Bois massif",
+          "image": "/Tables/TableRondeBois-removebg-preview.png",
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "nom": "Table rectangulaire",
+      "categorie": "TABLE",
+      "prix": 550,
+      "note": 5,
+      "avis": 102,
+      "stock": 30,
+      "variante": "Pliable plastique",
+      "image": "/Tables/TableRectangulairePliable-removebg-preview.png",
+      "description": "Table rectangulaire pliante en polyéthylène haute densité blanc. Dimensions : longueur 180 cm, largeur 75 cm, hauteur 74 cm. Épaisseur du plateau 4 cm avec renfort central. Structure en acier laqué époxy, tubes de 38 mm de diamètre. Poids de 18 kg, charge maximale 180 kg. Pliage central avec poignée de transport. Dimensions repliées : 90x75x10 cm.",
+      "variantes": [
+        {
+          "id": 26,
+          "variante": "Pliable plastique",
+          "image": "/Tables/TableRectangulairePliable-removebg-preview.png",
+          "stock": 30
+        },
+        {
+          "id": 27,
+          "variante": "Bois massif",
+          "image": "/Tables/TableRectangulaire-removebg-preview.png",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "nom": "Bache américaine",
+      "categorie": "BACHE",
+      "prix": 1500,
+      "note": 5,
+      "avis": 45,
+      "stock": 10,
+      "variante": "Structure fixe",
+      "image": "/Baches/BacheAmericaine-removebg-preview.png",
+      "description": "Tente de réception structure américaine en toile PVC 650g/m². Dimensions : longueur 6 mètres, largeur 3 mètres, hauteur faîtage 3.2 mètres, hauteur gouttière 2.2 mètres. Structure en aluminium anodisé, tubes de 50 mm de diamètre, épaisseur 2.5 mm. Toile blanche opaque, traitement anti-UV et ignifugé M2. Poids total 85 kg. Ancrages au sol inclus, sardines de 40 cm. Résistance au vent jusqu'à 80 km/h.",
+      "variantes": [
+        {
+          "id": 28,
+          "variante": "Structure fixe",
+          "image": "/Baches/BacheAmericaine-removebg-preview.png",
+          "stock": 10
+        },
+        {
+          "id": 29,
+          "variante": "Pliable",
+          "image": "/Baches/BacheNormal-removebg-preview.png",
+          "stock": 18
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "nom": "Couteau de table",
+      "categorie": "COUVERT",
+      "prix": 25,
+      "note": 5,
+      "avis": 134,
+      "stock": 600,
+      "variante": "Standard",
+      "image": "/Couvert/CouteauDeTable-removebg-preview.png",
+      "description": "Couteau de table en acier inoxydable 18/10 poli miroir. Longueur totale 22 cm, lame de 11 cm de longueur et 2 cm de largeur. Épaisseur de la lame 2 mm, épaisseur du manche 4 mm. Poids de 65 grammes. Manche monobloc sans soudure, finition brossée sur le dessus. Lame micro-dentée pour découpe facile. Équilibre parfait avec centre de gravité à 9 cm de la pointe."
+    },
+    {
+      "id": 31,
+      "nom": "Fourchette",
+      "categorie": "COUVERT",
+      "prix": 20,
+      "note": 5,
+      "avis": 142,
+      "stock": 650,
+      "variante": "Standard",
+      "image": "/Couvert/Fourchette-removebg-preview.png",
+      "description": "Fourchette de table en acier inoxydable 18/10 chromé brillant. Longueur 20.5 cm, largeur des dents 2.8 cm. Quatre dents de 3 cm de longueur, épaisseur 1.5 mm. Manche de 11 cm de long et 2 cm de large, épaisseur 3.5 mm. Poids de 52 grammes. Finition polie miroir des deux côtés. Construction monobloc forgée à froid pour résistance optimale."
+    },
+    {
+      "id": 32,
+      "nom": "Cuillère",
+      "categorie": "COUVERT",
+      "prix": 20,
+      "note": 5,
+      "avis": 138,
+      "stock": 700,
+      "variante": "Standard",
+      "image": "/Couvert/Cuillère-removebg-preview.png",
+      "description": "Cuillère à soupe en acier inoxydable 18/10 finition satinée. Longueur totale 20 cm, cuilleron de 7 cm de long et 4.5 cm de large. Profondeur du cuilleron 1 cm, capacité de 15 ml. Épaisseur du manche 3 mm, largeur 2 cm. Poids de 58 grammes. Cuilleron poli miroir, manche brossé mat. Ergonomie étudiée avec courbure douce de 15° pour confort d'utilisation."
+    }
+  ]
+}

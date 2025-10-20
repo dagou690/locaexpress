@@ -1,0 +1,172 @@
+.reinitialisation-globale {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Inscription-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  min-height: 100vh;
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+.Inscription {
+  color: #2196F3;
+  font-size: 58px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.google-inscription {
+  width: 380px;
+  height: 48px;
+  box-shadow: 0px 3px 10.2px rgba(0, 0, 0, 0.27);
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F2F2;
+  color: #2196F3;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.google-inscription:hover {
+  background-color: #eaeaea;
+  transform: scale(1.05);
+  box-shadow: 0px 5px 15px rgba(33, 150, 243, 0.3);
+}
+
+.google-inscription img {
+  margin-left: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.champ-saisie {
+  border: none;
+  border-bottom: 2px solid #2196F3;
+  background-color: transparent;
+  width: 380px;
+  padding: 12px 8px;
+  font-size: 16px;
+  color: #2196F3;
+  transition: all 0.3s ease;
+}
+
+.champ-saisie::placeholder {
+  color: #4c555c;
+  opacity: 0.6;
+}
+
+.champ-saisie:focus {
+  outline: none;
+  border-bottom: 2px solid #1976D2;
+
+}
+
+.conteneur-question {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.Label1 {
+  color: #A4A4A4;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+
+.groupe-radio {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  width: 100%;
+}
+
+.option-radio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.bouton-radio {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #2196F3;
+  border: none;
+}
+
+.etiquette-radio {
+  color: #A4A4A4;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.Boutton-connexion {
+  width: 380px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  background-color: #2196F3;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+.Boutton-connexion:hover {
+  background-color: #1976D2;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(33, 150, 243, 0.5);
+}
+
+.Boutton-connexion:active {
+  transform: scale(0.95);
+}
+
+.lien-inscription {
+  text-decoration: none;
+  color: #2196F3;
+  font-size: 15px;
+  transition: color 0.3s ease;
+  margin-top: 10px;
+}
+
+.lien-inscription:hover {
+  color: #1976D2;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .Inscription {
+    font-size: 42px;
+  }
+
+  .champ-saisie,
+  .google-inscription,
+  .Boutton-connexion,
+  .conteneur-question {
+    width: 90%;
+    max-width: 380px;
+  }
+
+  .groupe-radio {
+    gap: 50px;
+  }
+}
